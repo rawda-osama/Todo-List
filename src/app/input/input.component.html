@@ -1,0 +1,10 @@
+<div class="container">
+    <form (ngSubmit)="onSubmit(taskForm)" #taskForm="ngForm">
+        <div class="mb-3">
+            <label for="task" class="form-label">Task</label>
+            <input type="text" class="form-control" id="task" placeholder="Enter Text" ngModel name="task">
+          </div>
+    </form>
+</div>
+
+
